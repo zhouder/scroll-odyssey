@@ -78,17 +78,28 @@ function CalendarView({ days, color }: { days: StorageData['days']; color: strin
 
 /* ── Bar chart ── */
 function BarChart({ days, color }: { days: StorageData['days']; color: string }) {
-  const last14 = [...days].slice(-14)
-  const max = Math.max(...last14.map(d => d.meters), 0.01)
+  const today = new Date()
+  const last7: { date: string; meters: number }[] = []
+  for (let i = 6; i >= 0; i--) {
+    const d = new Date(today); d.setDate(d.getDate() - i)
+    const key = d.toISOString().slice(0, 10)
+    const rec = days.find(r => r.date === key)
+    last7.push({ date: key, meters: rec?.meters ?? 0 })
+  }
+  const max = Math.max(...last7.map(d => d.meters), 0.01)
+  const weekdays = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
   return (
-    <div style={{ display: 'flex', alignItems: 'flex-end', gap: 4, height: 64 }}>
-      {last14.map(d => (
-        <div key={d.date} title={`${d.date}: ${formatDistance(d.meters)}`}
-          style={{ flex: 1, display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 3 }}>
-          <div style={{ width: '100%', background: color, borderRadius: 2, opacity: 0.8, height: Math.max(3, (d.meters / max) * 52) }} />
-          <div style={{ fontSize: 9, color: C.muted, writingMode: 'vertical-lr', transform: 'rotate(180deg)' }}>{d.date.slice(5)}</div>
-        </div>
-      ))}
+    <div style={{ display: 'flex', alignItems: 'flex-end', gap: 6, height: 80 }}>
+      {last7.map(d => {
+        const dayIdx = new Date(d.date).getDay()
+        return (
+          <div key={d.date} title={`${d.date}: ${formatDistance(d.meters)}`}
+            style={{ flex: 1, display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 2 }}>
+            <div style={{ width: '100%', background: color, borderRadius: 3, opacity: 0.85, height: Math.max(4, (d.meters / max) * 56), transition: 'height 0.3s' }} />
+            <div style={{ fontSize: 9, color: C.muted }}>{weekdays[dayIdx]}</div>
+          </div>
+        )
+      })}
     </div>
   )
 }

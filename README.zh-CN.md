@@ -1,6 +1,10 @@
 # Scroll Odyssey 🧳
 
+**[English](README.md)** | **[中文](README.zh-CN.md)**
+
 把你每天滚动网页的距离变成一场离线旅行。
+
+![popup 截图](screenshots/popup.png)
 
 ## 功能
 
@@ -20,7 +24,7 @@
 ### 从源码构建
 
 ```bash
-git clone https://github.com/yourname/scroll-odyssey
+git clone https://github.com/zhouder/scroll-odyssey
 cd scroll-odyssey
 npm install
 npm run build
@@ -68,14 +72,6 @@ npm run lint    # ESLint
 npm run build   # 输出到 dist/
 ```
 
-## 截图
-
-将截图放置在 `screenshots/` 目录。
-
 ## 许可证
 
 MIT
-
----
-
-[English →](README.md)

@@ -1,5 +1,7 @@
 # Scroll Odyssey 🧳
 
+**[English](README.md)** | **[中文](README.zh-CN.md)**
+
 Turn your daily web scrolling into an offline journey.
 
 ![popup screenshot](screenshots/popup.png)
@@ -22,7 +24,7 @@ Every pixel you scroll moves you forward along a real-world route. Scroll enough
 ### Load from source
 
 ```bash
-git clone https://github.com/yourname/scroll-odyssey
+git clone https://github.com/zhouder/scroll-odyssey
 cd scroll-odyssey
 npm install
 npm run build
@@ -70,14 +72,6 @@ npm run lint    # ESLint
 npm run build   # outputs to dist/
 ```
 
-## Screenshots
-
-Place screenshots in `screenshots/`.
-
 ## License
 
 MIT
-
----
-
-[中文文档 →](README.zh-CN.md)
