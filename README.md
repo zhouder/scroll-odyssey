@@ -92,19 +92,6 @@ npm run build   # outputs to dist/
 npm run package # zip dist/ → scroll-odyssey-extension.zip
 ```
 
-## Social Preview
-
-Recommended image size: **1280 × 640 px**
-
-Suggested copy for `social_preview.png`:
-
-```
-Scroll Odyssey
-Turn scrolling into a journey
-Walk the Great Wall. Cross the Sahara.
-One webpage at a time.
-```
-
 ## License
 
 MIT

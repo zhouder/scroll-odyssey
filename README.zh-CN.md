@@ -92,19 +92,6 @@ npm run build   # 输出到 dist/
 npm run package # 将 dist/ 打包为 scroll-odyssey-extension.zip
 ```
 
-## 社交预览图
-
-推荐尺寸：**1280 × 640 px**
-
-建议文案（用于制作 `social_preview.png`）：
-
-```
-Scroll Odyssey
-把滚动变成一场旅程
-走完长城，穿越撒哈拉
-一次网页，一步世界。
-```
-
 ## 许可证
 
 MIT
