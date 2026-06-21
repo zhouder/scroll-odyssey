@@ -59,7 +59,8 @@ function extensionPlugin() {
       // Clean up leftover ESM chunks from the initial Vite build
       // The IIFE bundles are self-contained, so we don't need split chunks
       const assetsDir = resolve(__dirname, 'dist/assets')
-      try { mkdirSync(assetsDir, { recursive: true }) } catch {}
+      // Ensure assets dir exists (may already exist from main build)
+      mkdirSync(assetsDir, { recursive: true })
       for (const f of readdirSync(assetsDir)) {
         if (f !== 'popup.js' && f !== 'dashboard.js') {
           unlinkSync(resolve(assetsDir, f))
