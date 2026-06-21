@@ -12,7 +12,7 @@ Turn your daily web scrolling into a real-world journey. Walk the Great Wall. Cy
 
 ![popup screenshot](screenshots/popup.png)
 
-<!-- TODO: add demo gif showing extension in action -->
+<!-- TODO: add docs/demo.gif — suggested flow: scroll a long page → badge updates → open popup → show route progress + milestone + postcard + 7-day trend -->
 
 ## Why it matters
 
@@ -47,6 +47,16 @@ npm run build
 2. Enable **Developer mode** (top right)
 3. Click **Load unpacked** → select the `dist/` folder
 
+### 📦 Package locally (optional)
+
+After `npm run build`, run:
+
+```bash
+npm run package
+```
+
+This creates `scroll-odyssey-extension.zip` in the project root — upload it to Chrome Web Store or share directly.
+
 ## Usage
 
 - **Scroll any page** — the toolbar badge shows today's km
@@ -79,21 +89,14 @@ Actual values vary with screen DPI and OS scaling; this is a calibrated estimate
 npm test        # unit tests (vitest)
 npm run lint    # ESLint
 npm run build   # outputs to dist/
+npm run package # zip dist/ → scroll-odyssey-extension.zip
 ```
 
-## Share & Promote
+## Social Preview
 
-### GitHub Topics (add to repository settings)
+Recommended image size: **1280 × 640 px**
 
-```
-chrome-extension  browser-extension  productivity  quantified-self
-digital-wellbeing  gamification  scroll-tracker  react  vite
-typescript  privacy-first  offline-first
-```
-
-### Social Preview Image (1280 × 640 px)
-
-Recommended copy for your `social_preview.png`:
+Suggested copy for `social_preview.png`:
 
 ```
 Scroll Odyssey

@@ -12,7 +12,7 @@
 
 ![popup 截图](screenshots/popup.png)
 
-<!-- TODO: add demo gif showing extension in action -->
+<!-- TODO: add docs/demo.gif — suggested flow: scroll a long page → badge updates → open popup → show route progress + milestone + postcard + 7-day trend -->
 
 ## 为什么值得关注
 
@@ -47,6 +47,16 @@ npm run build
 2. 开启右上角**开发者模式**
 3. 点击**加载已解压的扩展程序** → 选择 `dist/` 目录
 
+### 📦 本地打包（可选）
+
+在 `npm run build` 之后运行：
+
+```bash
+npm run package
+```
+
+这会在项目根目录生成 `scroll-odyssey-extension.zip` 文件——可上传至 Chrome 网上应用店或直接分享。
+
 ## 使用
 
 - **滚动任意网页** — 工具栏徽章显示今日公里数
@@ -79,19 +89,12 @@ npm run build
 npm test        # 单元测试（vitest）
 npm run lint    # ESLint
 npm run build   # 输出到 dist/
+npm run package # 将 dist/ 打包为 scroll-odyssey-extension.zip
 ```
 
-## 分享与传播
+## 社交预览图
 
-### GitHub Topics（在仓库设置中添加）
-
-```
-chrome-extension  browser-extension  productivity  quantified-self
-digital-wellbeing  gamification  scroll-tracker  react  vite
-typescript  privacy-first  offline-first
-```
-
-### 社交预览图（1280 × 640 px）
+推荐尺寸：**1280 × 640 px**
 
 建议文案（用于制作 `social_preview.png`）：
 
