@@ -1,8 +1,6 @@
 # Scroll Odyssey 🧳
 
-**Your scrolling, reimagined as a journey.**
-
-[![Star on GitHub](https://img.shields.io/github/stars/zhouder/scroll-odyssey?style=social)](https://github.com/zhouder/scroll-odyssey) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+**[🇨🇳 中文](README.zh-CN.md)** · **[⭐ Star](https://github.com/zhouder/scroll-odyssey)**
 
 ---
 

@@ -1,8 +1,6 @@
 # Scroll Odyssey 🧳
 
-**把你的每次滚动，变成一场真实旅程。**
-
-[![Star on GitHub](https://img.shields.io/github/stars/zhouder/scroll-odyssey?style=social)](https://github.com/zhouder/scroll-odyssey) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+**[🇺🇸 English](README.md)** · **[⭐ Star](https://github.com/zhouder/scroll-odyssey)**
 
 ---
 
