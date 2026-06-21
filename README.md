@@ -77,6 +77,16 @@ Your data stays on your device. Period.
 
 All data lives in `chrome.storage.local` on your machine only.
 
+### Why these permissions?
+
+| Permission | What it enables | What it does NOT do |
+|---|---|---|
+| `storage` | Saves your route progress and daily distance locally | Never sends data anywhere |
+| `scripting` | Injects content script to measure scroll distance | Does not read page content or text |
+| `<all_urls>` | Lets the script run on any http/https page | Does not collect URLs or domain names |
+
+No notifications permission is used — milestone alerts are shown inside the extension popup only.
+
 ## Distance conversion
 
 > 1 pixel ≈ 0.2646 mm at 96 DPI → 1 m ≈ 3 780 px

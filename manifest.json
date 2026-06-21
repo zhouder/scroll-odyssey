@@ -3,7 +3,7 @@
   "name": "Scroll Odyssey",
   "version": "1.0.0",
   "description": "Turn your daily scrolling into a journey",
-  "permissions": ["storage", "scripting", "notifications"],
+  "permissions": ["storage", "scripting"],
   "host_permissions": ["<all_urls>"],
   "background": {
     "service_worker": "background.js"
