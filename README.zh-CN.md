@@ -32,7 +32,7 @@
 > **即将上线** — 审核通过后即可在此找到。
 
 ### 📦 从 GitHub Releases 下载
-> **即将上线** — 发布 release 后，可从 [Releases 页面](https://github.com/zhouder/scroll-odyssey/releases) 获取 `.zip` 文件并加载到 Chrome。
+从 [github.com/zhouder/scroll-odyssey/releases](https://github.com/zhouder/scroll-odyssey/releases) 下载最新版本，解压后加载到 Chrome。
 
 ### 🔧 从源码构建
 

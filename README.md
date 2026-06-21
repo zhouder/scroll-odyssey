@@ -32,7 +32,7 @@ Most people scroll **thousands of pixels daily** without realizing it — that d
 > **Coming soon** — once approved, you'll find it here.
 
 ### 📦 Download from GitHub Releases
-> **Coming soon** — once a release is published, grab the `.zip` from the [Releases page](https://github.com/zhouder/scroll-odyssey/releases) and load it unpacked in Chrome.
+Download the latest release from [github.com/zhouder/scroll-odyssey/releases](https://github.com/zhouder/scroll-odyssey/releases) and load it unpacked in Chrome.
 
 ### 🔧 Build from source
 
