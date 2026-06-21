@@ -1,7 +1,6 @@
 export const DEFAULT_SETTINGS = {
   paused: false,
   excludedDomains: [] as string[],
-  trackDomains: false,
   currentRouteId: 'marathon',
   unit: 'auto' as const,
   lang: 'en' as const,

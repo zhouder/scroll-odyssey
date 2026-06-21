@@ -70,7 +70,6 @@ Your data stays on your device. Period.
 | | |
 |---|---|
 | ✅ | Only **distance numbers and dates** are saved — never page URLs or content |
-| ✅ | Domain tracking is **off by default**; opt in from Settings |
 | ✅ | **Zero network requests** — no data ever leaves your browser |
 | ✅ | **One-click wipe** — Settings → Clear all data |
 | ✅ | Automatically skips `chrome://`, `edge://`, and extension pages |
@@ -82,10 +81,7 @@ All data lives in `chrome.storage.local` on your machine only.
 | Permission | What it enables | What it does NOT do |
 |---|---|---|
 | `storage` | Saves your route progress and daily distance locally | Never sends data anywhere |
-| `scripting` | Injects content script to measure scroll distance | Does not read page content or text |
-| `<all_urls>` | Lets the script run on any http/https page | Does not collect URLs or domain names |
-
-No notifications permission is used — milestone alerts are shown inside the extension popup only.
+| `<all_urls>` | Allows content script to run on any http/https page | Does not store URLs or domain names; hostnames are used locally for exclusion checks only |
 
 ## Distance conversion
 

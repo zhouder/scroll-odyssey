@@ -310,16 +310,6 @@ function SettingsTab({ data, save, reload }: { data: StorageData; save: (d: Stor
         </div>
       </div>
 
-      {/* track domains */}
-      <div style={card()}>
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-          <div>
-            <div style={{ color: C.text, fontSize: 13 }}>{i.trackDomains}</div>
-            <div style={{ color: C.muted, fontSize: 11, marginTop: 2 }}>{i.trackDomainsDesc}</div>
-          </div>
-          <input type="checkbox" checked={data.settings.trackDomains} onChange={e => patch({ trackDomains: e.target.checked })} />
-        </div>
-      </div>
 
       {/* excluded domains */}
       <div style={card()}>

@@ -13,7 +13,6 @@ export interface RouteProgress {
 export interface Settings {
   paused: boolean
   excludedDomains: string[]
-  trackDomains: boolean
   currentRouteId: string
   unit: 'auto' | 'cm' | 'm' | 'km'
   lang: 'en' | 'zh'

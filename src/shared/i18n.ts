@@ -6,8 +6,7 @@ export interface T {
   latestMilestone: string; pause: string; resume: string; overview: string
   routes: string; postcard: string; settings: string; last7: string
   progress: string; activeRoute: string; downloadPng: string
-  pauseTracking: string; pauseDesc: string; trackDomains: string
-  trackDomainsDesc: string; excludeDomains: string; excludeDomainsDesc: string
+  pauseTracking: string; pauseDesc: string; excludeDomains: string; excludeDomainsDesc: string
   addDomain: string; add: string; exportData: string; importData: string
   clearData: string; confirmClear: string; confirmDelete: string; cancel: string
   privacyNotice: string; unitLabel: string; unitAuto: string
@@ -29,8 +28,6 @@ const en: T = {
   progress: 'Progress', activeRoute: 'Active',
   downloadPng: '📥 Download Postcard PNG',
   pauseTracking: 'Pause tracking', pauseDesc: 'No scrolling recorded while paused',
-  trackDomains: 'Track by domain (optional)',
-  trackDomainsDesc: 'Off by default — records distance per site',
   excludeDomains: 'Excluded domains',
   excludeDomainsDesc: 'Scrolling on these sites is not counted',
   addDomain: 'example.com', add: 'Add',
@@ -57,8 +54,6 @@ const zh: T = {
   progress: '进度', activeRoute: '当前',
   downloadPng: '📥 下载明信片 PNG',
   pauseTracking: '暂停统计', pauseDesc: '暂停后不记录滚动距离',
-  trackDomains: '按域名统计（可选）',
-  trackDomainsDesc: '默认关闭，开启后记录每个网站的距离',
   excludeDomains: '排除域名',
   excludeDomainsDesc: '这些网站的滚动不会被统计',
   addDomain: 'example.com', add: '添加',
