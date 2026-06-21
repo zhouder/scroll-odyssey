@@ -1,6 +1,6 @@
 # Scroll Odyssey 🧳
 
-**[🇺🇸 English](README.md)** · **[⭐ Star](https://github.com/zhouder/scroll-odyssey)**
+**[🇺🇸 English](README.md)**
 
 ---
 
