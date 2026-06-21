@@ -1,6 +1,6 @@
 # Scroll Odyssey 🧳
 
-**[🇺🇸 English](README.md)**
+**[🇺🇸 English](README.md)** · [![CI](https://github.com/zhouder/scroll-odyssey/actions/workflows/ci.yml/badge.svg)](https://github.com/zhouder/scroll-odyssey/actions/workflows/ci.yml) · [![Release](https://img.shields.io/github/v/release/zhouder/scroll-odyssey)](https://github.com/zhouder/scroll-odyssey/releases)
 
 ---
 
